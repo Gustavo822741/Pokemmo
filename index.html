@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Torneio Estratégico – Estilo Pokédex</title>
+<style>
+    .icon { width: 32px; vertical-align: middle; margin-right: 8px; }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        color: #222;
+    }
+    header {
+        background: #cc0000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 28px;
+        letter-spacing: 1px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    .card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-left: 10px solid #cc0000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    }
+    h2 {
+        margin-top: 0;
+        color: #cc0000;
+    }
+    p {
+        line-height: 1.6;
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+<div class="pokedex-home">
+    <div class="pokedex-screen">
+        <h1 class="title">📘 Pokédex do Torneio Estratégico</h1>
+        <p class="subtitle">Entrada Principal</p>
+        <button class="enter-btn" onclick="document.querySelector('.container').scrollIntoView({behavior:'smooth'})">Entrar na Pokédex</button>
+    </div>
+</div>
+<style>
+.pokedex-home {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(#cc0000, #7a0000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+.pokedex-screen {
+    background: #e3e3e3;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    max-width: 600px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #cc0000;
+}
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+}
+.enter-btn {
+    padding: 12px 25px;
+    background: #cc0000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.enter-btn:hover {
+    background: #aa0000;
+    transform: scale(1.05);
+}
+</style>
+<header id="topo">📘 Torneio Estratégico – Estilo Pokédex</header>
+
+<div class="container">
+    <div class="card">
+        <h2><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" class="icon">1. Limite de Tempo</h2>
+        <p>30 minutos diários garantem progresso equilibrado. Esse limite impede que um jogador avance muito mais que o outro e mantém a disputa justa, semelhante ao ritmo de exploração tradicional dos jogos Pokémon.</p></h2>
+        <p>30 minutos de progresso diário por jogador.</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Núcleo Estratégico</h2>
+        <p>Cada jogador define uma "identidade tática" com 2 Pokémon principais (o núcleo) e 4 de apoio. Isso cria times mais temáticos e impede mudanças caóticas, semelhante à forma como treinadores especializados (como Lance ou Misty) constroem suas equipes.</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Moves</h2>
+        <p><b>Exemplos práticos:</b><br>
+        • Até o Ginásio 1 → Level 14<br>
+        • Até o Ginásio 2 → Level 20<br>
+        • Até o Ginásio 3 → Level 24<br>
+        • E assim por diante.</p>
+        <p><b>Regra rápida:</b><br>
+        • Ninguém pode passar do nível máximo do próximo ginásio.<br>
+        • Se passar, o Pokémon fica proibido até liberarem o próximo cap.<br>
+        • Rare Candy e XP também contam — passou do limite, bloqueou.</p>
+        <p><b>Por que existe?</b> Mantém equilíbrio, evita power leveling e deixa o torneio focado em escolhas inteligentes.</p>
+    </div>
+
+    <div class="card">
+        <h2>5. Moves</h2>
+        <p>Alguns golpes de altíssimo impacto são temporariamente restritos no início (como Earthquake, Ice Beam ou Flamethrower). Isso garante batalhas mais táticas e mantém o jogo próximo do estágio real da aventura.</p>
+    </div>
+
+    <div class="card">
+        <h2>6. Hazards e Setups</h2>
+        <p>Elementos como <b>Stealth Rock</b>, <b>Spikes</b>, <b>Reflect</b>, <b>Light Screen</b> e <b>Swords Dance</b> são totalmente permitidos. O torneio valoriza estratégia e tomada de decisão, como no competitivo oficial.</p>
+    </div>
+
+    <div class="card">
+        <h2>7. Formato das Lutas</h2>
+        <p>Partidas em <b>Melhor de 3</b>. Entre uma luta e outra o jogador pode fazer pequenos ajustes e trocar Pokémon <i>dentro do seu time permitido</i>, simulando adaptação tática como nos torneios VGC.</p>
+    </div>
+
+    <div class="card">
+        <h2>8. Sistema de Pontos</h2>
+        <p><b>Vitória 2–0:</b> 3 pts<br><b>Vitória 2–1:</b> 2 pts<br><b>Derrota 1–2:</b> 1 pt<br><b>Derrota 0–2:</b> 0 pts<br><br>O sistema recompensa vitórias rápidas, mas ainda reconhece lutas acirradas com performance forte.</p>
+    </div>
+
+    <div class="card">
+        <h2>9. Fair Play</h2>
+        <p>Ultrapassar o limite de tempo ou tentar burlar restrições resulta em advertência, perda de pontos ou desclassificação em casos graves. O objetivo é manter o torneio honesto e divertido.</p>
+    </div>
+
+    <div class="card">
+        <h2>10. Final Four</h2>
+        <p>Os quatro melhores competem em semifinais e final no formato <b>Melhor de 5</b>. Isso garante que o campeão prove consistência e domínio estratégico.</p>
+    </div>
+</div>
+
+<div class="sprite-layer">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" class="sprite pikachu">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" class="sprite charmander">
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" class="sprite squirtle">
+</div>
+<style>
+.sprite-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+.sprite {
+    position: absolute;
+    width: 64px;
+    opacity: 0.7;
+    animation: float 8s linear infinite;
+}
+.pikachu { left: 5%;  animation-duration: 10s; }
+.charmander { left: 40%; animation-duration: 12s; }
+.squirtle { left: 75%; animation-duration: 14s; }
+@keyframes float {
+    0% { transform: translateY(110%); }
+    100% { transform: translateY(-120%); }
+}
+</style>
+</body>
+</html>
