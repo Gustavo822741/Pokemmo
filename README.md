@@ -2,7 +2,7 @@
 
 ![Banner do Campeonato](assets/Pokemon.png)
 
-
+link para o site (https://gustavo822741.github.io/Pokemmo/)
 
 Bem-vindo ao repositório **Pokemmo Rules**!  
 Este projeto reúne as principais diretrizes, regras, padrões de convivência e estrutura organizacional para eventos, campeonatos e jogatinas organizadas dentro do universo **PokeMMO**.
@@ -38,7 +38,7 @@ Criar um ambiente amigável, competitivo e justo para todos os jogadores, garant
 - Batalhas no formato **OU**, **UU**, **NU**, **Random** ou personalizado.
 
 ### 📌 Inscrição
-- Via formulário / Discord / Sistema interno.
+- Via formulário / WattsApp / Sistema interno.
 - Gratuita ou paga, dependendo do torneio.
 
 ### 📌 Premiação
