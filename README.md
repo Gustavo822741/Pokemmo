@@ -1,6 +1,8 @@
 # 📘 Pokemmo Rules
 
-![Banner do Campeonato](src: projPokemmo/assets/Pokemon.png)
+![Banner do Campeonato](assets/Pokemon.png)
+
+
 
 Bem-vindo ao repositório **Pokemmo Rules**!  
 Este projeto reúne as principais diretrizes, regras, padrões de convivência e estrutura organizacional para eventos, campeonatos e jogatinas organizadas dentro do universo **PokeMMO**.
